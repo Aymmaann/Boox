@@ -3,7 +3,7 @@ import "./Nav.css"
 import icons from "./NavIcons"
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-const Nav = ({size}) => {
+const Nav = ({size, setShowHomePage}) => {
 
     return(
         <>
@@ -40,11 +40,11 @@ const Nav = ({size}) => {
             <hr />
 
             <nav>
-                <div className="logo-section">
+                <div className="logo-section" onClick={() => setShowHomePage(true)}>
                     <img src={icons.logo2} alt="" className="logo-img"/>
                     <h2>Boox</h2>
                 </div>
-                <div className="cart-icon">
+                <div className="cart-icon" onClick={() => setShowHomePage(false)}>
                     <i className="fas fa-cart-shopping"></i>
                     <span>{size}</span>
                 </div>

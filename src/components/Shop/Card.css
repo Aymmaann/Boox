@@ -37,10 +37,9 @@
 
 .add-to-cart {
     width: 150px;
-    /* font-family: "Montserrat", sans-serif; */
     font-family: "Lato", sans-serif;
     border: none;
-    background-color: orange;
+    background-color: #f96564;
     border-radius: 10px;
     padding: 10px;
     font-weight: 600;
@@ -50,9 +49,9 @@
     gap: 10px;
     transition: 0.2s ease-in-out;
     cursor: pointer;
+    color: white;
 }
 
 .add-to-cart:hover {
-    /* background-color: #ffab69; */
-    background-color: rgb(255, 188, 65);
+    background-color: #ff8282;
 }

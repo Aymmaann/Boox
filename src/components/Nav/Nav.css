@@ -81,6 +81,7 @@ nav {
     align-items: center;
     gap: 8px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .logo-img {

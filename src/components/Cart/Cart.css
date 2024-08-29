@@ -1,0 +1,158 @@
+.cart-section-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 14px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.cart-section h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cart-box {
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.cart-img img {
+    width: 120px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.cart-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-box-text div {
+    margin-top: 5px;
+}
+
+.price-section {
+    background-color: #f96564;
+    background-color: rgba(0, 0, 0, 0.746);
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 24px;
+}
+
+.price {
+    margin-bottom: 0;
+}
+
+.button-panel {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.button-panel i {
+    cursor: pointer;
+    padding: 7px;
+}
+
+.count-changer {
+    background-color: #f7f8fd;
+    width: 140px;
+    padding: 11px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.count-changer i {
+    color: #f96564;
+}
+
+.trash-btn {
+    color: rgba(0, 0, 0, 0.746);;
+}
+
+.bill-details {
+    margin-top: 30px;
+}
+
+.bill-detail {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.746);;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bill-title {
+    font-weight: 500;
+}
+
+.bill-price {
+    margin-top: 8px;
+}
+
+.bill-price span {
+    font-weight: 700;
+}
+
+.bill-divider {
+    margin-top: 20px;
+    height: 3px;
+}
+
+.bill-summary {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bill-summary p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.bill-summary p span {
+    font-weight: 600;
+}
+
+.bill-summary button {
+    background-color: #f96564;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.bill-summary button:hover {
+    background-color: #ff8282;
+}
+
+.empty-cart {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.walletIcon {
+    width: 100px;
+    margin-bottom: 50px;
+}
