@@ -39,11 +39,13 @@ header p {
     align-items: center;
     justify-content: center;
     gap: 6px;
+    cursor: pointer;
 }
 
 .header-setting img {
     width: 10px;
 }
+
 .header-setting .header-icon-div {
     padding: 3px 3px 1px;
 }
@@ -53,6 +55,10 @@ header p {
     align-items: center;
     justify-content: center;
     gap: 15px;
+}
+
+.header-offer-price {
+    font-weight: 600;
 }
 
 hr {

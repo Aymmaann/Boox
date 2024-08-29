@@ -3,7 +3,7 @@ import "./Nav.css"
 import icons from "./NavIcons"
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-const Nav = () => {
+const Nav = ({size}) => {
 
     return(
         <>
@@ -23,18 +23,18 @@ const Nav = () => {
                     </div>
                 </div>
 
-                <p>Free shipping for orders over $150</p>
+                <p>Free shipping for orders over <span className="header-offer-price">$50</span></p>
 
                 <div className="header-settings">
                     <div className="header-setting">
                         <p>USD $</p>
-                        <img src={icons.arrowDown} alt="" />
+                        <img src={icons.arrowDown} alt=""/>
                     </div>
                     <div className="header-setting">
                         <p>English</p>
                         <img src={icons.arrowDown} alt="" />
                     </div>
-                </div>
+                </div> 
             </header>
 
             <hr />
@@ -46,7 +46,7 @@ const Nav = () => {
                 </div>
                 <div className="cart-icon">
                     <i className="fas fa-cart-shopping"></i>
-                    <span>0</span>
+                    <span>{size}</span>
                 </div>
             </nav>
         </>

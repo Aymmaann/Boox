@@ -1,0 +1,12 @@
+.card-section {
+    margin: 20px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.collections-header {
+    margin-top: 60px;
+}

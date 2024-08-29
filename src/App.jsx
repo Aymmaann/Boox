@@ -4,10 +4,11 @@ import Nav from './components/Nav/Nav'
 import Shop from './components/Shop/Shop'
 
 const App = () => {
+  const [cart, setCart] = ([])
 
   return (
     <>
-      <Nav />
+      <Nav size={cart.length}/>
       <Shop />
     </>
   )
